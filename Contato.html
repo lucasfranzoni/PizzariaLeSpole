@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Pizzaria.css">
+    <title>Pizzaria Le Spole</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col justify-content-center align-self-center text-right">
+                <h1>Pizzaria Le Spole</h1>
+            </div>
+            <div class="col">
+                <img src="logo.jpg" alt="Pizzaria Le Spole" id="imagemLogo"/>                
+            </div>
+        </div>
+    
+        
+        <nav class="navbar navbar-expand-sm navbar-dark" id="menu">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Quem somos.html">Quem somos</a>
+                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Cardapio.html">Cardápio</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="Contato.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <br />
+        <br />
+    
+        <div class="container">
+            <form>
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" class="form-control" id="nome"required>
+                    <br />
+                    <label for="nome">E-mail:</label>
+                    <input type="email" class="form-control" id="email" required>
+                    <br />
+                    <label for="nome">Assunto:</label>
+                    <input type="text" class="form-control" id="assunto" required>
+                    <br />
+                    <label for="nome">Mensagem:</label>
+                    <textarea id="mensagem" class="form-control" rows="5" required></textarea>
+                    <br />
+                    <br />
+                    <input type="submit" class="btn" value="Enviar">
+                </div>
+            </form>
+        </div>
+    
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        
+        <div class="text-center" id="rodaPe">
+            <h5>Contato:</h5>
+            <p>(48) 3232-2323 / (48) 99876-5432</p>
+        </div>
+        
+        <audio controls autoplay id="musica">
+            <source src="Som ambiente.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+*{
+    color: #1F4282;
+}
+
+#imagemLogo {
+    width:100px;
+    height:100px;
+}
+
+#menu, #rodaPe {
+    background-color: #609CD8;
+}
+
+#menu a {
+    text-shadow: 1px 1px 1px #1F4282; 
+}
+
+#rodaPe h5, #rodaPe p {
+    text-align: center;
+    color:white;
+    margin: 5px;
+    font-size: 13.28px; 
+    text-shadow: 1px 1px 1px #1F4282;
+}
+
+.imagemCardapio {
+    width:300px;
+    height:300px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+input[type="submit"] {
+    background-color: #609CD8;
+    color:white;
+    border-color: #1F4282;
+    box-shadow: 2px 2px 2px #1F4282;
+    text-shadow: 1px 1px 1px #1F4282;
+    margin-left: 50px;
+}
+
+#musica{
+    display: none;   
+}
